@@ -24,7 +24,7 @@ mongoose.connect(
 )
 
 
-const PORT=6767;
+const PORT=process.env.PORT || 6767;
 
 var app=express()
 
